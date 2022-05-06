@@ -113,9 +113,6 @@ def consolidar():
         print('Sin información')
 
 if __name__ == '__main__':
-    #descarga()
-    #consolidar()
-    Map = geemap.Map()
-    dataset = ee.ImageCollection('COPERNICUS/S5P/NRTI/L3_CO')
-    print(dataset)
+    descarga()
+    consolidar()
 
